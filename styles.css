@@ -1,0 +1,879 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+body {
+  margin: 0;
+  background-color: rgb(20, 20, 22);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.background {
+  width: 100%;
+  height: 150vh;
+  background-image: url(images/c837a6_2119733e838e4a2f8813ebde736f99d5_mv2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+  position: relative;
+  background-attachment: fixed;
+}
+header {
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  z-index: 10;
+}
+.vista {
+  height: 100%;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vista p {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.icon {
+  margin-right: 1em;
+  cursor: pointer;
+  width: 8%;
+  height: 2em;
+  background-color: transparent;
+  color: white;
+}
+nav {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  color: white;
+}
+nav li {
+  display: inline;
+  cursor: pointer;
+  margin: 1em;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+nav li:hover {
+  color: #974041;
+  transition: 0.4s ease 0s;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.navigation {
+  height: 100%;
+  width: 75%;
+  background-color: transparent;
+}
+nav button {
+  margin-top: 1em;
+  height: 70%;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  width: 13%;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: #889ce7;
+  color: black;
+  border-color: #889ce7;
+  transition: 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.the {
+  display: inline-block;
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  flex-flow: column nowrap;
+  top: 10%;
+  margin-left: 5%;
+}
+.text1 {
+  width: 100%;
+  background-color: aquamarine;
+  font-size: 5rem;
+  color: white;
+  background: transparent;
+  transition-duration: 700ms;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: start;
+}
+.text2 {
+  width: 100%;
+  font-size: 1.875rem;
+  color: white;
+  text-align: start;
+  transition-duration: 700ms;
+  background: transparent;
+}
+.the button {
+  height: 3rem;
+  background-color: #fd6262;
+  margin-top: 1em;
+  border: 1px solid #fd6262;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  width: 17%;
+  cursor: pointer;
+}
+.the button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.middle {
+  margin-left: 5%;
+  margin-top: -10%;
+  width: 90%;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+}
+.box1 {
+  width: 40%;
+  height: 100%;
+  background-image: url(images/c837a6_eb322a4179e54d788eef6896e67f05d0_mv2.webp);
+  background-size: cover;
+  border: 1px solid #3f4349;
+}
+.box2 {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(20, 20, 22);
+  border: 1px solid #3f4349;
+  position: relative;
+}
+.cloud {
+  height: 22.3rem;
+  width: 35%;
+  background-color: transparent;
+  margin: -7.5rem 0 0 6rem;
+  transition-duration: 700ms;
+}
+.versatility {
+  background-color: transparent;
+  height: 22.3rem;
+  width: 35%;
+  margin: 1.3rem 0 0 6rem;
+  transition-duration: 700ms;
+}
+.data {
+  background-color: transparent;
+  height: 22.3rem;
+  width: 35%;
+  position: absolute;
+  top: 4rem;
+  left: 22rem;
+  transition-duration: 700ms;
+}
+.full {
+  background-color: transparent;
+  height: 22.3rem;
+  width: 35%;
+  position: absolute;
+  top: 28rem;
+  left: 22rem;
+  transition-duration: 700ms;
+}
+.forth {
+  border-radius: 10px;
+  background-color: rgb(27, 28, 30);
+  box-shadow: 0.1px 4px 30px 0px rgba(0, 0, 0, 0.3);
+  transition-duration: 700ms;
+}
+.icons {
+  margin: 2em;
+}
+.txts {
+  font-size: 1rem;
+  color: rgb(136, 156, 231);
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 0 0 0 2em;
+}
+.texts {
+  color: rgb(138, 138, 138);
+  line-height: 1.6em;
+  font-size: 0.9rem;
+  visibility: inherit;
+  padding: 0 2em 0 2em;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition-duration: 700ms;
+}
+.hr {
+  border-radius: 7px;
+  box-shadow: 0 1px 0 hsl(0deg 0% 100% / 10%), inset 0 1px 0 rgb(0 0 0 / 25%);
+  background-color: rgb(63, 67, 73);
+  height: 6px;
+  margin: 30px;
+}
+.second {
+  margin-top: 20rem;
+  height: 110vh;
+}
+.two {
+  background-image: url(images/c837a6_41aece62e57346379d12018aece18ea2_mv2.webp);
+  width: 50%;
+}
+.one {
+  width: 50%;
+  overflow: hidden;
+}
+.two p {
+  line-height: 1.4em;
+  text-align: center;
+  font-size: 1.875em;
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-top: 65%;
+  transition-duration: 700ms;
+}
+.third {
+  padding: 3em 6em 2.5em 5.5em;
+  line-height: 1.8em;
+  font-size: 1em;
+  text-align: start;
+  transition-duration: 700ms;
+}
+.s {
+  margin-top: -10%;
+}
+.one button {
+  height: 3rem;
+  background-color: #fd6262;
+  margin: 0 0 0 21%;
+  border: 1px solid #fd6262;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+}
+.one button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.info {
+  width: 80%;
+  height: 25rem;
+  background-color: transparent;
+  margin: 7rem auto;
+  display: flex;
+  flex-flow: column;
+  transition-duration: 700ms;
+}
+.headers {
+  width: 100%;
+  height: 40%;
+  background-color: transparent;
+}
+.cont {
+  width: 100%;
+  height: 60%;
+  background-color: transparent;
+  display: flex;
+  text-align: center;
+}
+.bo {
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+}
+.headers h2 {
+  text-align: center;
+  font-size: 1.875em;
+  color: rgb(255, 255, 255);
+  transition-duration: 700ms;
+  margin-top: 4rem;
+}
+.number {
+  color: rgb(253, 98, 98);
+  font-size: 3.75em;
+  text-align: center;
+  transition-duration: 700ms;
+  font-weight: bold;
+}
+.other {
+  transition-duration: 700ms;
+  color: rgb(138, 138, 138);
+  text-align: center;
+  font-size: 0.875em;
+  margin-top: -3rem;
+}
+.img {
+  width: 100%;
+  height: 50vh;
+  margin-top: -100px;
+  background-color: transparent;
+}
+.img img {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+}
+.last1 {
+  width: 100%;
+  height: 30%;
+  margin: auto;
+  display: flex;
+}
+.our {
+  border-right: 1px solid #3f4349;
+  color: white;
+  width: 20%;
+  height: 100%;
+}
+.our p {
+  margin: 3rem 0 0 3rem;
+  font-size: 1.875em;
+  line-height: 1.2em;
+  transition-duration: 700ms;
+  font-weight: bold;
+}
+.mikron {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #3f4349;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pome {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #3f4349;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gar {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #3f4349;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.velo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animation1 {
+  border-right: 1px solid #3f4349;
+  width: 60%;
+  height: 100%;
+  background-clip: url(images/file.mp4);
+}
+.animation {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/c837a6_0f9a4576e86442e3b124952322acdd72_mv2.webp);
+  background-size: cover;
+  z-index: -2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animation video {
+  width: 100%;
+  height: 100%;
+  background-clip: url(images/file.mp4);
+  visibility: hidden;
+}
+.animation img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.animation div {
+  height: 80%;
+  width: 80%;
+}
+.something {
+  height: 100%;
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.last2 {
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  border-top: 1px solid #3f4349;
+}
+.last {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  background-color: transparent;
+  border: 1px solid #3f4349;
+  margin-top: 50px;
+}
+.something p {
+  color: rgb(138, 138, 138);
+  line-height: 1.8em;
+  font-size: 1 rem;
+  visibility: inherit;
+  padding: 0 5.5em 0.8em 5.5em;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bold;
+  transition-duration: 700ms;
+}
+.something button {
+  height: 3rem;
+  background-color: #fd6262;
+  margin: 0 12.4rem 0 21%;
+  border: 1px solid #fd6262;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  width: 30%;
+  cursor: pointer;
+  transition-duration: 700ms;
+}
+.something button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 32.5rem;
+}
+.contact {
+  height: 100%;
+  width: 30%;
+}
+.clk {
+  height: 100%;
+  width: 20%;
+  color: rgb(138, 138, 138);
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 2.3em;
+  transition-duration: 700ms;
+}
+.clk ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  cursor: pointer;
+  margin: 150px 0 50px -50px;
+}
+.clk li:hover {
+  transition: 0.4s ease 0s;
+}
+.clk button {
+  height: 3rem;
+  background-color: #fd6262;
+  border: 1px solid #fd6262;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  width: 110px;
+  cursor: pointer;
+  margin: 0 0 0 -10px;
+}
+.clk button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.mail {
+  height: 100%;
+  width: 30%;
+}
+.follow {
+  height: 100%;
+  width: 20%;
+  background-color: transparent;
+  color: rgb(138, 138, 138);
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 9rem 0 0 0;
+  transition-duration: 700ms;
+}
+.c {
+  margin: 9rem 0 0 0;
+  font-size: 0.875em;
+  line-height: 1.6em;
+}
+.vista2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+  margin: 100px 120px 100px 0;
+  font-weight: bold;
+  transition-duration: 700ms;
+}
+.vista2 p {
+  cursor: pointer;
+}
+.icon2 {
+  margin: 0.8em 0.5em 0 0;
+  cursor: pointer;
+  width: 13%;
+  height: 2em;
+  background-color: transparent;
+  color: #fd6262;
+  transition-duration: 700ms;
+}
+.information {
+  width: 70%;
+  height: 40%;
+  margin: -2em auto;
+  font-size: 1.125rem;
+  color: rgb(138, 138, 138);
+  line-height: 1em;
+  font-weight: bold;
+  transition-duration: 700ms;
+}
+footer a {
+  text-decoration: none;
+  font-style: normal;
+  color: rgb(138, 138, 138);
+  cursor: pointer;
+}
+.mail p {
+  margin: 10rem 0 1rem 0;
+  color: rgb(138, 138, 138);
+  font-size: 1.125rem;
+  font-weight: bold;
+  transition-duration: 700ms;
+}
+form {
+  color: rgb(138, 138, 138);
+  font-size: 0.875em;
+  font-weight: bold;
+}
+#gmail {
+  border: 2px solid black;
+  background-color: rgb(20, 20, 22);
+  border-color: rgb(253, 98, 98);
+  font-size: 0.875rem;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+  text-align: left;
+  direction: ltr;
+  width: 65%;
+  height: 3rem;
+  color: rgb(138, 138, 138);
+}
+/* input[type=email]:focus {
+    border: 2px solid rgb(138,138,138);
+} */
+input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid rgb(138, 138, 138);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  text-align: initial;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 30%;
+  height: 3rem;
+  color: rgb(138, 138, 138);
+  font-size: 0.875rem;
+}
+.hide {
+  display: none !important;
+  transition-duration: 700ms;
+  transition: 0.4s ease 0s;
+}
+.chat {
+  display: flex;
+  position: fixed;
+  color: rgb(20, 20, 22);
+  background-color: rgb(253, 98, 98);
+  border-radius: 8px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0 hsl(0deg 1% 71% / 50%);
+  align-items: center;
+  justify-content: center;
+  max-width: 340px;
+  font-size: 18px;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  border: none;
+  z-index: 100;
+}
+.chat svg {
+  fill: rgb(20, 20, 22);
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.main_chat {
+  width: 24.3em;
+  height: 75.5vh;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0em;
+  right: 1.25rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-width: 0px;
+  border-color: rgb(27, 28, 30);
+  border-style: solid;
+  color: rgb(0, 0, 0);
+  /* padding: 17px 17px 24px 20px; */
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 3px 0 hsl(0deg 1% 71% / 50%);
+  font-size: 0.875rem;
+  z-index: 50;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.online {
+  width: 100%;
+  height: 16%;
+}
+.x {
+  position: fixed;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  right: 28px;
+  top: 12em;
+  cursor: pointer;
+}
+.online h2 {
+  font-size: 19px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.online p {
+  font-size: 14px;
+  margin: 7px 0 0 5px;
+  color: black;
+  font-weight: bold;
+}
+.bb {
+  display: flex;
+  flex-flow: row;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: start;
+}
+.green {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #43b72a;
+  margin: 7px 3px 0 20px;
+}
+.color {
+  width: 100%;
+  height: 72%;
+  background: none center 0px,
+    linear-gradient(218deg, rgb(253, 98, 98) 0%, rgb(20, 20, 22) 100%);
+  padding: 0px 20px 20px;
+  position: relative;
+  flex: 1 1 0px;
+  overflow-y: auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+.typing {
+  width: 100%;
+  height: 12%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+textarea {
+  resize: none;
+  border: none;
+  width: 15rem;
+  height: 2rem;
+  padding-left: 20px;
+  font-size: 17px;
+  outline: none;
+}
+.typing button {
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #8894ab;
+  object-fit: cover;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+input[type="file"] {
+  opacity: 0;
+}
+.upload {
+  position: fixed;
+}
+.flex {
+  display: flex;
+}
+
+@media (max-width: 840px) {
+  html {
+    font-size: 10px;
+  }
+  .forth {
+    width: 30%;
+    height: 35%;
+  }
+
+  .data {
+    transform: translateX(-15%);
+  }
+
+  .full {
+    transform: translate(-15%, 20%);
+  }
+
+  .our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .forth {
+    width: 35%;
+    height: 35%;
+  }
+  .data {
+    transform: translateX(-50%);
+  }
+
+  .full {
+    transform: translate(-50%, 20%);
+  }
+
+  .icons {
+    width: 30px;
+    height: 30px;
+  }
+
+  .get {
+    width: max-content;
+    height: 3rem;
+  }
+
+  .last1 img {
+    width: 50%;
+  }
+
+  .something p {
+    padding: 0 10% 0 10%;
+    text-align: center;
+  }
+  .something button {
+    margin: 0 auto;
+    width: max-content;
+  }
+  .third {
+    padding: 1em 1em 0 1em;
+  }
+  .one button{
+      width: max-content;
+  }
+  .the button{
+        width: max-content;
+  }
+}
+
+@media (max-width: 435px) {
+  .forth {
+    width: 40%;
+    height: 40%;
+  }
+  .data {
+    transform: translateX(-70%);
+  }
+
+  .full {
+    transform: translate(-70%, 30%);
+  }
+}
+
+@media (max-width: 400px) {
+  .forth {
+    width: 60%;
+    height: 40%;
+    box-sizing: border-box;
+    overflow: scroll;
+  }
+  .cloud {
+    transform: translateX(-150%);
+  }
+  .versatility {
+    transform: translateX(-150%);
+  }
+  .data {
+    transform: translateX(-170%);
+  }
+
+  .full {
+    transform: translate(-170%, 30%);
+  }
+
+  .our p {
+    font-size: 1rem;
+    margin: 0 0 0 0;
+  }
+
+  .cont {
+    flex-wrap: wrap;
+  }
+
+  .number {
+    font-size: 2em;
+  }
+  .other {
+    margin-top: 1.5em;
+  }
+  .hr {
+    margin-top: -0.5em;
+  }
+}
